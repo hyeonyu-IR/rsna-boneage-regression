@@ -32,6 +32,9 @@ dataloader:
   pin_memory: true
   batch_size: 16
 
+model:
+  backbone: "resnet34"   # "resnet34" | "resnet50" | "efficientnet_b0"  
+
 preprocess:
   img_size: 384      # square resize
   grayscale_to_rgb: true
