@@ -1,0 +1,74 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# virtual environments
+.env
+.venv
+env/
+venv/
+conda-env/
+*.conda
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# =========================
+# Machine Learning Outputs
+# =========================
+
+# Training artifacts
+outputs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ts
+*.onnx
+
+# Tensorboard
+runs/
+
+# Logs
+logs/
+*.log
+
+# Experiment CSV exports
+runs_compare.csv
+
+# Streamlit cache
+.streamlit/
+
+# =========================
+# Data (VERY important)
+# =========================
+
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+
+# Kaggle downloads
+*.kaggle
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
